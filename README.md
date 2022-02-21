@@ -1,0 +1,1 @@
+# astra-extended-sticky-header
