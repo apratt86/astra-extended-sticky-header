@@ -1,0 +1,12 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.ast-theme-transparent-header #masthead {
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	margin-bottom: -195px;
+	top: 0;
+}
