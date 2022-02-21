@@ -1,11 +1,13 @@
 (function( $ ) {
 	'use strict';
 
-	$(document).scroll(function(){
-		if( $(this).scrollTop() > 195 ) {
-			$('#masthead').css({"background-color":"rgba(164, 194, 196, 0.5)"});
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 100 ) {
+			$('#masthead').css({"background-color":"var(--e-global-color-primary)"});
+			$('.ast-above-header-wrap').css({"display":"none"});
 		} else {
 			$('#masthead').css({"background-color":"transparent"});
+			$('.ast-above-header-wrap').css({"display":"block"});
 		}
 	});
 

@@ -5,8 +5,7 @@
 
 
 .ast-theme-transparent-header #masthead {
-	position: -webkit-sticky !important;
-	position: sticky !important;
-	margin-bottom: -195px;
+	position: fixed !important;
 	top: 0;
+	z-index: 9999;
 }
